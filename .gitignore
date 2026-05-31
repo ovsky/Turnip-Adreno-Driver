@@ -1,52 +1,38 @@
-# Prerequisites
-*.d
+# Build and Compilation Artifacts
+build/
+out/
+target/
+bin/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Meson and Ninja specific
+.ninja_deps
+.ninja_log
+compile_commands.json
+meson-logs/
+meson-private/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Downloaded Source Code and NDKs
+mesa/
+android-ndk-*/
+ndk/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
+# Archives, Binaries, and Packages
+*.zip
+*.tar.gz
+*.tar.xz
+*.7z
 *.so
-*.so.*
-*.dylib
+*.apk
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# IDE and System specific
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Environment and Secrets
+.env
+local.properties
+*.log
