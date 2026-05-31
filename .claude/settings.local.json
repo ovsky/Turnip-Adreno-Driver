@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "PowerShell(gh repo view K11MCH1/AdrenoToolsDrivers --json name,description,defaultBranchRef,topics,readme 2>&1)",
+      "WebFetch(domain:api.github.com)"
+    ]
+  }
+}
